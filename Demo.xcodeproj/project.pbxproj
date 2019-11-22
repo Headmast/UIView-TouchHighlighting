@@ -11,7 +11,6 @@
 		6E2527611D4395D500035620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2527551D4395D500035620 /* Assets.xcassets */; };
 		6E2527621D4395D500035620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2527561D4395D500035620 /* LaunchScreen.storyboard */; };
 		6E2527631D4395D500035620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2527581D4395D500035620 /* Main.storyboard */; };
-		6E2527641D4395D500035620 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E25275A1D4395D500035620 /* Info.plist */; };
 		6E2527671D4395D500035620 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E25275F1D4395D500035620 /* ViewController.m */; };
 		6E2527691D43961000035620 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2527681D43961000035620 /* main.m */; };
 		6E2527881D439A2600035620 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2527871D439A2600035620 /* UIKit.framework */; };
@@ -170,6 +169,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -191,7 +191,6 @@
 				6E2527611D4395D500035620 /* Assets.xcassets in Resources */,
 				6E2527631D4395D500035620 /* Main.storyboard in Resources */,
 				6E2527621D4395D500035620 /* LaunchScreen.storyboard in Resources */,
-				6E2527641D4395D500035620 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
