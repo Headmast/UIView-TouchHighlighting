@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FC890E72387EAB400C71FCF /* TouchHighlighting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC890DE2387EAB400C71FCF /* TouchHighlighting.framework */; };
+		5FC890EC2387EAB400C71FCF /* TouchHighlightingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC890EB2387EAB400C71FCF /* TouchHighlightingTests.m */; };
+		5FC890EE2387EAB400C71FCF /* TouchHighlighting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC890E02387EAB400C71FCF /* TouchHighlighting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC890F52387EAC200C71FCF /* MTViewHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E708CBC1D9667BC00E4AD7D /* MTViewHighlighter.m */; };
+		5FC890F62387EAC500C71FCF /* MTCompoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E708CB51D96660B00E4AD7D /* MTCompoundButton.m */; };
+		5FC890F72387EAC700C71FCF /* UIView+TouchHighlighting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2527981D43A31700035620 /* UIView+TouchHighlighting.m */; };
 		6E2527601D4395D500035620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2527541D4395D500035620 /* AppDelegate.m */; };
 		6E2527611D4395D500035620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2527551D4395D500035620 /* Assets.xcassets */; };
 		6E2527621D4395D500035620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2527561D4395D500035620 /* LaunchScreen.storyboard */; };
@@ -21,7 +27,23 @@
 		6E708CBD1D9667BC00E4AD7D /* MTViewHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E708CBC1D9667BC00E4AD7D /* MTViewHighlighter.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5FC890E82387EAB400C71FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83848CC1C16FE1200822828 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC890DD2387EAB400C71FCF;
+			remoteInfo = TouchHighlighting;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5FC890DE2387EAB400C71FCF /* TouchHighlighting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TouchHighlighting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC890E02387EAB400C71FCF /* TouchHighlighting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchHighlighting.h; sourceTree = "<group>"; };
+		5FC890E12387EAB400C71FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC890E62387EAB400C71FCF /* TouchHighlightingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchHighlightingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC890EB2387EAB400C71FCF /* TouchHighlightingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchHighlightingTests.m; sourceTree = "<group>"; };
+		5FC890ED2387EAB400C71FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E2527531D4395D500035620 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E2527541D4395D500035620 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E2527551D4395D500035620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +66,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5FC890DB2387EAB400C71FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC890E32387EAB400C71FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC890E72387EAB400C71FCF /* TouchHighlighting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F83848D11C16FE1200822828 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,6 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FC890DF2387EAB400C71FCF /* TouchHighlighting */ = {
+			isa = PBXGroup;
+			children = (
+				5FC890E02387EAB400C71FCF /* TouchHighlighting.h */,
+				5FC890E12387EAB400C71FCF /* Info.plist */,
+			);
+			path = TouchHighlighting;
+			sourceTree = "<group>";
+		};
+		5FC890EA2387EAB400C71FCF /* TouchHighlightingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC890EB2387EAB400C71FCF /* TouchHighlightingTests.m */,
+				5FC890ED2387EAB400C71FCF /* Info.plist */,
+			);
+			path = TouchHighlightingTests;
+			sourceTree = "<group>";
+		};
 		6E2527521D4395D500035620 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +164,8 @@
 			children = (
 				6E2527521D4395D500035620 /* Demo */,
 				6E2527961D43A31700035620 /* UIView+TouchHighlighting */,
+				5FC890DF2387EAB400C71FCF /* TouchHighlighting */,
+				5FC890EA2387EAB400C71FCF /* TouchHighlightingTests */,
 				6E2527861D439A0F00035620 /* Frameworks */,
 				F83848D51C16FE1200822828 /* Products */,
 			);
@@ -118,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				F83848D41C16FE1200822828 /* UIView+TouchHighlighting_Demo.app */,
+				5FC890DE2387EAB400C71FCF /* TouchHighlighting.framework */,
+				5FC890E62387EAB400C71FCF /* TouchHighlightingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +191,54 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5FC890D92387EAB400C71FCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC890EE2387EAB400C71FCF /* TouchHighlighting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5FC890DD2387EAB400C71FCF /* TouchHighlighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC890EF2387EAB400C71FCF /* Build configuration list for PBXNativeTarget "TouchHighlighting" */;
+			buildPhases = (
+				5FC890D92387EAB400C71FCF /* Headers */,
+				5FC890DA2387EAB400C71FCF /* Sources */,
+				5FC890DB2387EAB400C71FCF /* Frameworks */,
+				5FC890DC2387EAB400C71FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchHighlighting;
+			productName = TouchHighlighting;
+			productReference = 5FC890DE2387EAB400C71FCF /* TouchHighlighting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FC890E52387EAB400C71FCF /* TouchHighlightingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC890F22387EAB400C71FCF /* Build configuration list for PBXNativeTarget "TouchHighlightingTests" */;
+			buildPhases = (
+				5FC890E22387EAB400C71FCF /* Sources */,
+				5FC890E32387EAB400C71FCF /* Frameworks */,
+				5FC890E42387EAB400C71FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC890E92387EAB400C71FCF /* PBXTargetDependency */,
+			);
+			name = TouchHighlightingTests;
+			productName = TouchHighlightingTests;
+			productReference = 5FC890E62387EAB400C71FCF /* TouchHighlightingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F83848D31C16FE1200822828 /* UIView+TouchHighlighting_Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F83848EB1C16FE1200822828 /* Build configuration list for PBXNativeTarget "UIView+TouchHighlighting_Demo" */;
@@ -159,6 +265,16 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Muhammad Tayyab Akram";
 				TargetAttributes = {
+					5FC890DD2387EAB400C71FCF = {
+						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = H9CR65Y9WK;
+						ProvisioningStyle = Automatic;
+					};
+					5FC890E52387EAB400C71FCF = {
+						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = H9CR65Y9WK;
+						ProvisioningStyle = Automatic;
+					};
 					F83848D31C16FE1200822828 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
@@ -179,11 +295,27 @@
 			projectRoot = "";
 			targets = (
 				F83848D31C16FE1200822828 /* UIView+TouchHighlighting_Demo */,
+				5FC890DD2387EAB400C71FCF /* TouchHighlighting */,
+				5FC890E52387EAB400C71FCF /* TouchHighlightingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5FC890DC2387EAB400C71FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC890E42387EAB400C71FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F83848D21C16FE1200822828 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +329,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5FC890DA2387EAB400C71FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC890F52387EAC200C71FCF /* MTViewHighlighter.m in Sources */,
+				5FC890F62387EAC500C71FCF /* MTCompoundButton.m in Sources */,
+				5FC890F72387EAC700C71FCF /* UIView+TouchHighlighting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC890E22387EAB400C71FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC890EC2387EAB400C71FCF /* TouchHighlightingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F83848D01C16FE1200822828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +361,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FC890E92387EAB400C71FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC890DD2387EAB400C71FCF /* TouchHighlighting */;
+			targetProxy = 5FC890E82387EAB400C71FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6E2527561D4395D500035620 /* LaunchScreen.storyboard */ = {
@@ -232,6 +390,156 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5FC890F02387EAB400C71FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H9CR65Y9WK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TouchHighlighting/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.TouchHighlighting;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FC890F12387EAB400C71FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H9CR65Y9WK;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TouchHighlighting/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.TouchHighlighting;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FC890F32387EAB400C71FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9CR65Y9WK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TouchHighlightingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.TouchHighlightingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FC890F42387EAB400C71FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9CR65Y9WK;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TouchHighlightingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.hdmast.TouchHighlightingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F83848E91C16FE1200822828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -337,6 +645,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5FC890EF2387EAB400C71FCF /* Build configuration list for PBXNativeTarget "TouchHighlighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC890F02387EAB400C71FCF /* Debug */,
+				5FC890F12387EAB400C71FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC890F22387EAB400C71FCF /* Build configuration list for PBXNativeTarget "TouchHighlightingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC890F32387EAB400C71FCF /* Debug */,
+				5FC890F42387EAB400C71FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F83848CF1C16FE1200822828 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
